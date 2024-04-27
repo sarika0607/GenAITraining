@@ -1,4 +1,4 @@
-df = pd.read_csv('https://raw.githubusercontent.com/adib0073/FastAPI_Docker_Deployment/main/uci_heart_disease/Data/heart.csv')
+import pandas
 df = pd.read_csv('https://raw.githubusercontent.com/adib0073/FastAPI_Docker_Deployment/main/uci_heart_disease/Data/heart.csv')
 
 def find_outlier(input_col, threshold=400):
